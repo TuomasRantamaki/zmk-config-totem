@@ -36,11 +36,7 @@
   tapping-term-ms = <170>;
 };
 
-/ {
-
-    };
-
-    
+/ {    
 
         keymap {
                 compatible = "zmk,keymap";
