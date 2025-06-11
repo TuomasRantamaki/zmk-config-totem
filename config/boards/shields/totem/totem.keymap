@@ -16,12 +16,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#include "zmk-helpers/helper.h"
-// Source desired key-position labels
-#include "zmk-helpers/key-labels/totem.h"
-// Source unicode-chars for desired languages
-#include "zmk-helpers/unicode-chars/swedish.dtsi"
-
 #define BASE 0
 #define NAV  1
 #define SYM  2
