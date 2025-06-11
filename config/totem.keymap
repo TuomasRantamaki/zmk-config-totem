@@ -10,7 +10,6 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
@@ -67,10 +66,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp Q           &kp W           &kp F               &kp P             &kp T          &kp Y        &kp U              &kp L                &kp B            &kp J
-        &mt LEFT_WIN A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G          &kp M        &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &mt LEFT_WIN O
-&trans  &kp X           &kp C           &kp V               &kp D             &kp COMMA      &kp DOT      &kp H              &kp K                &kp Y            &kp Z           &trans
-                                        &lt 1 ESCAPE        &lt 2 TAB         &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE    &lt 1 DELETE
+       &kp Q           &kp W           &kp F               &kp P             &kp T          &kp Y        &kp U              &kp L                &kp B            &kp J
+       &mt LEFT_WIN A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G          &kp M        &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &mt LEFT_WIN O
+&to 4  &kp X           &kp C           &kp V               &kp D             &kp COMMA      &kp DOT      &kp H              &kp K                &kp Y            &kp Z           &trans
+                                       &lt 1 ESCAPE        &lt 2 TAB         &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE    &lt 1 DELETE
             >;
         };
 
@@ -143,10 +142,10 @@
 
         game_layer {
             bindings = <
-        &kp T  &kp Q  &kp W   &kp E      &kp R        &trans  &trans  &trans  &trans  &trans
-        &kp G  &kp A  &kp S   &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
-&trans  &kp B  &kp Z  &kp X   &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                      &trans  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
+        &kp T  &kp Q  &kp W           &kp E      &kp R        &trans  &trans  &trans  &trans  &trans
+        &kp G  &kp A  &kp S           &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
+&trans  &kp B  &kp Z  &kp X           &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                      &kp LEFT_SHIFT  &kp LCTRL  &kp SPACE    &to 0   &trans  &trans
             >;
 
             label = "GAME";
