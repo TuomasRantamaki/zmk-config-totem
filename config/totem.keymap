@@ -77,7 +77,7 @@
             bindings = <
           &kp Q           &kp W           &kp F               &kp P             &kp B            &kp J          &kp L              &kp U                &kp Y            &none
           &mt LEFT_WIN A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G            &kp M          &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &mt LEFT_WIN O
-&to GAME  &kp Z           &kp X           &kp C               &kp D             &kp V            &kp K          &kp H              &ae                  &oe              &none           &trans
+&to GAME  &kp Z           &kp X           &kp C               &kp D             &kp V            &kp K          &kp H              &ae                  &oe              &kp DOT         &kp COMMA
                                           &lt NAV ESCAPE      &lt NUM TAB       &lt SYM SPACE    &lt SYM ENTER  &lt NUM BACKSPACE  &lt NAV DELETE
             >;
         };
