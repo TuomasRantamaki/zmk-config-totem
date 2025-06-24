@@ -101,10 +101,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none              &none       &kp PAGE_UP       &none       &none         &kp PRINTSCREEN  &kp INSERT      &kp UP_ARROW     &none       &none
-        &kp DOUBLE_QUOTES  &kp HOME    &kp PAGE_DOWN     &kp END     &none         &none            &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT   &none
-&trans  &kp SINGLE_QUOTE   &kp C_STOP  &kp C_PLAY_PAUSE  &kp C_PREV  &kp C_NEXT    &none            &kp C_VOL_DN    &kp C_VOLUME_UP  &kp K_MUTE  &none  &trans
-                                       &trans            &trans      &trans        &mo 0            &kp KP_N0       &trans
+        &none              &none       &kp PAGE_UP       &none       &none         &kp PRINTSCREEN    &kp INSERT      &kp UP_ARROW     &none       &none
+        &kp DOUBLE_QUOTES  &kp HOME    &kp PAGE_DOWN     &kp END     &none         &kp K_SCROLL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT   &none
+&trans  &kp SINGLE_QUOTE   &kp C_STOP  &kp C_PLAY_PAUSE  &kp C_PREV  &kp C_NEXT    &kp K_SCROLL_DOWN  &kp C_VOL_DN    &kp C_VOLUME_UP  &kp K_MUTE  &none  &trans
+                                       &trans            &trans      &trans        &mo 0              &kp KP_N0       &trans
             >;
         };
 
@@ -140,7 +140,7 @@
 
         symbol_layer {
             bindings = <
-        &trans             &trans         &kp PIPE       &kp LEFT_BRACE        &ae                 &oe                &kp RIGHT_BRACE        &kp EQUAL    &kp EXCLAMATION  &trans
+        &trans             &trans         &kp PIPE       &kp LEFT_BRACE        &ae                 &kp MINUS          &kp RIGHT_BRACE        &kp EQUAL    &kp EXCLAMATION  &trans
         &kp DOUBLE_QUOTES  &kp AMPERSAND  &kp HASH       &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp PERCENT      &trans
 &trans  &kp APOSTROPHE     &kp COLON      &kp SEMICOLON  &kp BACKSLASH         &kp LESS_THAN       &kp GREATER_THAN   &kp SLASH              &kp UNDER    &kp TILDE        &trans  &trans
                                           &trans         &trans                &trans              &trans             &trans                 &trans
